@@ -1,0 +1,113 @@
+/* * {
+  border: 1px solid red;
+} */
+
+
+.cuerpo {
+  margin: 15px;
+  padding: 15px;
+}
+
+.elemento {
+  margin-top: 50px;
+}
+
+.rojo {
+  color: red;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+/* Título y definición */
+
+article > div {
+  margin: 0;
+  padding: 0;
+}
+
+article > div > h2, article > div > p {
+  margin: 0;
+  padding: 0;
+  font-family: serif, sans-serif;
+}
+
+article > div > h2 {
+  font-size: 20px;
+}
+
+/* Profesor */
+
+.dos {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.dos > p, .dos > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dos > ul {
+  margin: 4px 20px;
+}
+
+/* Preguntas y foto */
+
+.tres {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.preguntas {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.preguntas > p {
+  margin: 0;
+  padding: 0;
+}
+
+.preguntas > ul {
+  margin: 0 20px;
+  padding: 0;
+}
+
+.piramide {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.imagen {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.pie {
+  width: 100%;
+}
